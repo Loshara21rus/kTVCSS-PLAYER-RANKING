@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs
+/ClearLogs/.vs/ClearLogs
+/ClearLogs/ClearLogs/obj
+/ClearLogs/packages
+/CustomCupWorker/.vs/CustomCupWorker/xs
+/CustomCupWorker/CustomCupWorker/obj/x86/Debug
+/CustomCupWorker/packages
+/kBot/.vs/kBot/v16
+/kBot/kBot/obj
+/kBot/packages
+/WorkNode/.vs/WorkNode/v16
+/WorkNode/packages
+/WorkNode/WorkNode/obj

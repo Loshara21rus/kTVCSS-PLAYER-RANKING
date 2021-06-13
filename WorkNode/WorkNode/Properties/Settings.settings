@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WorkNode.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mysqlConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">server=localhost;user=root;password=;database=kTVCSS;</Value>
+    </Setting>
+    <Setting Name="vkToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tokenhere</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
