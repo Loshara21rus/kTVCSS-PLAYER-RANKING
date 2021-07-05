@@ -209,7 +209,7 @@ namespace WorkNode
             {
                 desc = reader[0].ToString();
             }
-
+            connection.Close();
             api.Wall.Post(new WallPostParams()
             {
                 OwnerId = -WorkClass.MainGroupId,
@@ -233,7 +233,7 @@ namespace WorkNode
             {
                 count = int.Parse(reader[0].ToString());
             }
-
+            connection.Close();
             var api = new VkApi();
             api.Authorize(new ApiAuthParams
             {

@@ -31,6 +31,7 @@ namespace WorkNode
         public static int MainGroupId = 0;
         public static int StatGroupId = 0;
         public static int AdminUserId = 0;
+        public static int BattleCupEnabled = 0;
 
         #endregion
 
@@ -254,9 +255,9 @@ namespace WorkNode
                     ePts += Tools.GetPlayerPts(enemy.PlayerSteamId);
                 }
                 ePts /= Convert.ToDouble(enemies.Count());
-                if (pts - ePts <= -700)
+                if (pts - ePts <= -1000)
                     return true;
-                if (ePts - pts <= 700 && ePts - pts >= -700)
+                if (ePts - pts <= 1000 && ePts - pts >= -1000)
                     return true;
                 else return false;
             }
@@ -268,9 +269,9 @@ namespace WorkNode
                     ePts += Tools.GetPlayerPts(enemy.PlayerSteamId);
                 }
                 ePts /= Convert.ToDouble(enemies.Count());
-                if (pts - ePts <= -700)
+                if (pts - ePts <= -1000)
                     return true;
-                if (ePts - pts <= 700 && ePts - pts >= -700)
+                if (ePts - pts <= 1000 && ePts - pts >= -1000)
                     return true;
                 else return false;
             }
@@ -828,6 +829,7 @@ namespace WorkNode
                 MainGroupId = Convert.ToInt32(reader[0].ToString());
                 StatGroupId = Convert.ToInt32(reader[1].ToString());
                 AdminUserId = Convert.ToInt32(reader[2].ToString());
+                BattleCupEnabled = Convert.ToInt32(reader[3].ToString());
             }
             connection.Close();
         }
@@ -1389,9 +1391,11 @@ namespace WorkNode
 
             var cup = new Thread(Cups.Init);
             cup.Start();
-
-            var battleCup = new Thread(BattleCup.Init);
-            battleCup.Start(); PrintLogMessage("BattleCup.Init thread started", "TRACE");
+            if (BattleCupEnabled == 1)
+            {
+                var battleCup = new Thread(BattleCup.Init);
+                battleCup.Start(); PrintLogMessage("BattleCup.Init thread started", "TRACE");
+            }
         }
     }
 }

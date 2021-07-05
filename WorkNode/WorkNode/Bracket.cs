@@ -31,7 +31,7 @@ namespace WorkNode
             {
                 graphics.DrawString(reader[0].ToString().ToUpper(), new Font("AGENCYR", 12), Brushes.White, int.Parse(reader[1].ToString()), int.Parse(reader[2].ToString()));
             }
-
+            reader.Close();
             query = new MySqlCommand($"SELECT TEXT, X, Y FROM cups_bracket WHERE POSITION = 0;", connection);
             reader = query.ExecuteReader();
             while (reader.Read())
