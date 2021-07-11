@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `battlecup_list` (
   `Status` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Id` (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Экспортируемые данные не выделены.
 
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `battlecup_matches` (
   `BracketItem` text COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `MatchId` (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Экспортируемые данные не выделены.
 
@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `ccw_teams` (
   `TNAME` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `TSTUFF` text COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`ID`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Экспортируемые данные не выделены.
 
@@ -174,6 +174,21 @@ DELETE FROM ktvcss.players WHERE DAYOFYEAR(SYSDATE()) - DAYOFYEAR(LASTMATCH) >= 
 END//
 DELIMITER ;
 
+-- Дамп структуры для процедура ktvcss.findmix
+DELIMITER //
+CREATE PROCEDURE `findmix`(
+	IN `steam` TEXT
+)
+BEGIN
+
+SET @this = (SELECT rankpts FROM players WHERE steamid = steam);
+SET @difp = @this - 1000;
+SET @difm = @this + 1000;
+SELECT * FROM players WHERE rankpts > @difp AND rankpts < @difm;
+
+END//
+DELIMITER ;
+
 -- Дамп структуры для таблица ktvcss.matches
 CREATE TABLE IF NOT EXISTS `matches` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
@@ -186,7 +201,7 @@ CREATE TABLE IF NOT EXISTS `matches` (
   `ServerId` int(11) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ID` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=18127 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19252 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Экспортируемые данные не выделены.
 
@@ -225,7 +240,7 @@ CREATE TABLE IF NOT EXISTS `players` (
   `WinRate` text,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ID` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=6004 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6379 DEFAULT CHARSET=utf8mb4;
 
 -- Экспортируемые данные не выделены.
 
@@ -261,7 +276,8 @@ CREATE TABLE IF NOT EXISTS `servers` (
 CREATE TABLE IF NOT EXISTS `statsettings` (
   `MainGroupId` int(11) DEFAULT NULL,
   `StatGroupId` int(11) DEFAULT NULL,
-  `AdminUserId` int(11) DEFAULT NULL
+  `AdminUserId` int(11) DEFAULT NULL,
+  `BattleCupEnabled` tinyint(4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Экспортируемые данные не выделены.
@@ -280,7 +296,7 @@ CREATE TABLE IF NOT EXISTS `teams` (
   `CapID` text,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ID` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=464 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=541 DEFAULT CHARSET=utf8mb4;
 
 -- Экспортируемые данные не выделены.
 

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProcessKeeper.Properties" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="WorkNode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\kTVCSS\_process\WorkNode\WorkNode.exe</Value>
+    </Setting>
+    <Setting Name="kurwanatorVkBot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\kTVCSS\_process\kBot\kBot.exe</Value>
+    </Setting>
+    <Setting Name="CCW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\kTVCSS\_process\Custom Cup Worker\CustomCupWorker.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
