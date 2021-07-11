@@ -1,0 +1,1823 @@
+01.07.2021 21:00:55 [TRACE] Log file loaded
+01.07.2021 21:00:55 [TRACE] Vk Api Token loaded
+01.07.2021 21:00:57 [DEBUG] Loaded server 5271@185.158.112.207:27401
+01.07.2021 21:00:57 [DEBUG] Loaded server 5270@185.158.112.207:27402
+01.07.2021 21:00:57 [DEBUG] Loaded server 5269@185.158.112.207:27403
+01.07.2021 21:00:57 [DEBUG] Loaded server 5268@185.158.112.207:27404
+01.07.2021 21:00:57 [DEBUG] Loaded server 4538@185.158.112.207:27052
+01.07.2021 21:00:57 [DEBUG] Loaded server 4539@185.158.112.207:27053
+01.07.2021 21:00:57 [DEBUG] Loaded server 5275@185.158.113.131:27055
+01.07.2021 21:00:57 [DEBUG] Loaded server 5274@185.158.112.203:27065
+01.07.2021 21:00:57 [TRACE] Config from DB loaded
+01.07.2021 21:00:57 [TRACE] Team Setup thread started
+01.07.2021 21:00:57 [TRACE] PlayerStatisticsProcessing thread started
+01.07.2021 21:00:57 [TRACE] Cup status changed to 20
+01.07.2021 21:00:57 [TRACE] BattleCup.Init thread started
+01.07.2021 21:07:45 [INFO] downloaded file L0701003.log
+01.07.2021 21:07:46 [INFO] downloaded file L0701001.log
+01.07.2021 21:07:46 [INFO] started processing file L0701003.log
+01.07.2021 21:08:01 [INFO] successfully processed file L0701003.log
+01.07.2021 21:08:02 [INFO] started processing file L0701001.log
+01.07.2021 21:08:22 [INFO] successfully processed file L0701001.log
+01.07.2021 21:17:14 [INFO] downloaded file L0701004.log
+01.07.2021 21:17:14 [INFO] started processing file L0701004.log
+01.07.2021 21:17:16 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+01.07.2021 21:17:16 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+01.07.2021 21:17:16 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+01.07.2021 21:17:16 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+05.07.2021 19:45:34 [TRACE] Log file loaded
+05.07.2021 19:45:35 [TRACE] Vk Api Token loaded
+05.07.2021 19:45:36 [DEBUG] Loaded server 5271@185.158.112.207:27401
+05.07.2021 19:45:36 [DEBUG] Loaded server 5270@185.158.112.207:27402
+05.07.2021 19:45:36 [DEBUG] Loaded server 5269@185.158.112.207:27403
+05.07.2021 19:45:36 [DEBUG] Loaded server 5268@185.158.112.207:27404
+05.07.2021 19:45:36 [DEBUG] Loaded server 4538@185.158.112.207:27052
+05.07.2021 19:45:36 [DEBUG] Loaded server 4539@185.158.112.207:27053
+05.07.2021 19:45:36 [DEBUG] Loaded server 5275@185.158.113.131:27055
+05.07.2021 19:45:36 [DEBUG] Loaded server 5274@185.158.112.203:27065
+05.07.2021 19:45:36 [TRACE] Config from DB loaded
+05.07.2021 19:45:36 [TRACE] Team Setup thread started
+05.07.2021 19:45:36 [TRACE] PlayerStatisticsProcessing thread started
+05.07.2021 19:45:36 [TRACE] Cup status changed to 32
+05.07.2021 20:09:10 [DEBUG] INCORRECT TAGS  MixTeam DoubleTrouble - NightEagle;  NightEagle - DoubleTrouble
+05.07.2021 20:16:22 [INFO] downloaded file L0705003.log
+05.07.2021 20:16:22 [INFO] started processing file L0705003.log
+05.07.2021 20:16:38 [INFO] successfully processed file L0705003.log
+05.07.2021 20:24:14 [INFO] downloaded file L0705000.log
+05.07.2021 20:24:14 [INFO] started processing file L0705000.log
+05.07.2021 20:24:29 [INFO] successfully processed file L0705000.log
+05.07.2021 20:28:17 [INFO] downloaded file L0705001.log
+05.07.2021 20:28:17 [INFO] started processing file L0705001.log
+05.07.2021 20:28:24 [INFO] successfully processed file L0705001.log
+05.07.2021 20:35:38 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+05.07.2021 20:35:38 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+05.07.2021 20:35:38 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+05.07.2021 20:35:38 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+   в MySqlConnector.MySqlConnection.<CreateSessionAsync>d__117.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   в MySqlConnector.MySqlConnection.<OpenAsync>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MySqlConnector.MySqlConnection.Open()
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+05.07.2021 20:35:39 [TRACE] Log file loaded
+05.07.2021 20:35:39 [TRACE] Vk Api Token loaded
+05.07.2021 20:35:40 [DEBUG] Loaded server 5271@185.158.112.207:27401
+05.07.2021 20:35:40 [DEBUG] Loaded server 5270@185.158.112.207:27402
+05.07.2021 20:35:40 [DEBUG] Loaded server 5269@185.158.112.207:27403
+05.07.2021 20:35:40 [DEBUG] Loaded server 5268@185.158.112.207:27404
+05.07.2021 20:35:40 [DEBUG] Loaded server 4538@185.158.112.207:27052
+05.07.2021 20:35:40 [DEBUG] Loaded server 4539@185.158.112.207:27053
+05.07.2021 20:35:40 [DEBUG] Loaded server 5275@185.158.113.131:27055
+05.07.2021 20:35:40 [DEBUG] Loaded server 5274@185.158.112.203:27065
+05.07.2021 20:35:40 [TRACE] Config from DB loaded
+05.07.2021 20:35:40 [TRACE] Team Setup thread started
+05.07.2021 20:35:40 [TRACE] PlayerStatisticsProcessing thread started
+05.07.2021 20:35:40 [TRACE] Cup status changed to 32
+05.07.2021 20:36:43 [INFO] downloaded file L0705002.log
+05.07.2021 20:36:43 [INFO] started processing file L0705002.log
+05.07.2021 20:36:51 [INFO] successfully processed file L0705002.log
+05.07.2021 20:52:20 [INFO] downloaded file L0705005.log
+05.07.2021 20:52:20 [INFO] started processing file L0705005.log
+05.07.2021 20:52:40 [INFO] successfully processed file L0705005.log
+05.07.2021 20:53:22 [INFO] downloaded file L0705001.log
+05.07.2021 20:53:22 [INFO] started processing file L0705001.log
+05.07.2021 20:53:43 [DEBUG] INCORRECT TAGS  MixTeam NightEagle - NightEagle;  DoubleTrouble - DoubleTrouble
+05.07.2021 20:53:46 [INFO] successfully processed file L0705001.log
+05.07.2021 20:54:15 [DEBUG] INCORRECT TAGS  MixTeam NightEagle - NightEagle;  DoubleTrouble - DoubleTrouble
+05.07.2021 20:54:46 [DEBUG] INCORRECT TAGS  MixTeam NightEagle - NightEagle;  DoubleTrouble - DoubleTrouble
+05.07.2021 20:55:17 [DEBUG] INCORRECT TAGS  MixTeam NightEagle - NightEagle;  DoubleTrouble - DoubleTrouble
+05.07.2021 21:04:08 [INFO] downloaded file L0705003.log
+05.07.2021 21:04:08 [INFO] started processing file L0705003.log
+05.07.2021 21:04:19 [INFO] successfully processed file L0705003.log
+05.07.2021 21:22:17 [INFO] downloaded file L0705003.log
+05.07.2021 21:22:17 [INFO] started processing file L0705003.log
+05.07.2021 21:22:36 [INFO] successfully processed file L0705003.log
+05.07.2021 21:24:47 [ERROR] MySqlConnector.MySqlException (0x80004005): Connect Timeout expired. All pooled connections are in use. ---> System.OperationCanceledException: Операция была отменена.
+   в System.Threading.SemaphoreSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.SemaphoreSlim.Wait(CancellationToken cancellationToken)
+   в MySqlConnector.Core.ConnectionPool.<GetSessionAsync>d__10.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskA
+06.07.2021 5:01:33 [TRACE] Log file loaded
+06.07.2021 5:01:33 [TRACE] Vk Api Token loaded
+06.07.2021 5:01:35 [DEBUG] Loaded server 5271@185.158.112.207:27401
+06.07.2021 5:01:35 [DEBUG] Loaded server 5270@185.158.112.207:27402
+06.07.2021 5:01:35 [DEBUG] Loaded server 5269@185.158.112.207:27403
+06.07.2021 5:01:35 [DEBUG] Loaded server 5268@185.158.112.207:27404
+06.07.2021 5:01:35 [DEBUG] Loaded server 4538@185.158.112.207:27052
+06.07.2021 5:01:35 [DEBUG] Loaded server 4539@185.158.112.207:27053
+06.07.2021 5:01:35 [DEBUG] Loaded server 5275@185.158.113.131:27055
+06.07.2021 5:01:35 [DEBUG] Loaded server 5274@185.158.112.203:27065
+06.07.2021 5:01:35 [TRACE] Config from DB loaded
+06.07.2021 5:01:35 [TRACE] Team Setup thread started
+06.07.2021 5:01:35 [TRACE] PlayerStatisticsProcessing thread started
+06.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:38 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:38 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:39 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:39 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 5:01:40 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+06.07.2021 6:00:07 [TRACE] Log file loaded
+06.07.2021 6:00:07 [TRACE] Vk Api Token loaded
+06.07.2021 6:00:07 [DEBUG] Loaded server 5271@185.158.112.207:27401
+06.07.2021 6:00:07 [DEBUG] Loaded server 5270@185.158.112.207:27402
+06.07.2021 6:00:07 [DEBUG] Loaded server 5269@185.158.112.207:27403
+06.07.2021 6:00:07 [DEBUG] Loaded server 5268@185.158.112.207:27404
+06.07.2021 6:00:07 [DEBUG] Loaded server 4538@185.158.112.207:27052
+06.07.2021 6:00:07 [DEBUG] Loaded server 4539@185.158.112.207:27053
+06.07.2021 6:00:07 [DEBUG] Loaded server 5275@185.158.113.131:27055
+06.07.2021 6:00:07 [DEBUG] Loaded server 5274@185.158.112.203:27065
+06.07.2021 6:00:07 [TRACE] Config from DB loaded
+06.07.2021 6:00:07 [TRACE] Team Setup thread started
+06.07.2021 6:00:07 [TRACE] PlayerStatisticsProcessing thread started
+06.07.2021 13:40:12 [INFO] downloaded file L0706000.log
+06.07.2021 13:40:12 [INFO] started processing file L0706000.log
+06.07.2021 13:40:23 [INFO] successfully processed file L0706000.log
+06.07.2021 14:01:54 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+06.07.2021 14:06:57 [INFO] downloaded file L0706000.log
+06.07.2021 14:06:57 [INFO] started processing file L0706000.log
+06.07.2021 14:07:14 [INFO] successfully processed file L0706000.log
+06.07.2021 14:49:04 [INFO] downloaded file L0706000.log
+06.07.2021 14:49:04 [INFO] started processing file L0706000.log
+06.07.2021 14:49:21 [INFO] successfully processed file L0706000.log
+06.07.2021 15:35:47 [INFO] downloaded file L0706000.log
+06.07.2021 15:35:47 [INFO] started processing file L0706000.log
+06.07.2021 15:36:07 [INFO] successfully processed file L0706000.log
+06.07.2021 16:21:07 [INFO] downloaded file L0706000.log
+06.07.2021 16:21:08 [INFO] started processing file L0706000.log
+06.07.2021 16:21:27 [INFO] successfully processed file L0706000.log
+06.07.2021 17:09:31 [INFO] downloaded file L0706000.log
+06.07.2021 17:09:32 [INFO] started processing file L0706000.log
+06.07.2021 17:09:55 [INFO] successfully processed file L0706000.log
+06.07.2021 17:49:41 [INFO] downloaded file L0706000.log
+06.07.2021 17:49:41 [INFO] started processing file L0706000.log
+06.07.2021 17:50:08 [INFO] successfully processed file L0706000.log
+06.07.2021 17:54:11 [INFO] downloaded file L0706002.log
+06.07.2021 17:54:11 [INFO] started processing file L0706002.log
+06.07.2021 17:54:23 [INFO] successfully processed file L0706002.log
+06.07.2021 18:50:22 [INFO] downloaded file L0706001.log
+06.07.2021 18:50:22 [INFO] started processing file L0706001.log
+06.07.2021 18:50:47 [INFO] successfully processed file L0706001.log
+06.07.2021 18:56:52 [INFO] downloaded file L0706001.log
+06.07.2021 18:56:53 [INFO] started processing file L0706001.log
+06.07.2021 18:57:09 [INFO] successfully processed file L0706001.log
+06.07.2021 19:49:01 [INFO] downloaded file L0706000.log
+06.07.2021 19:49:01 [INFO] downloaded file L0706001.log
+06.07.2021 19:49:01 [INFO] started processing file L0706001.log
+06.07.2021 19:49:14 [INFO] successfully processed file L0706001.log
+06.07.2021 19:49:15 [INFO] started processing file L0706000.log
+06.07.2021 19:49:25 [INFO] successfully processed file L0706000.log
+06.07.2021 19:53:50 [INFO] downloaded file L0706001.log
+06.07.2021 19:53:50 [INFO] started processing file L0706001.log
+06.07.2021 19:54:00 [INFO] successfully processed file L0706001.log
+06.07.2021 19:56:02 [INFO] downloaded file L0706000.log
+06.07.2021 19:56:03 [INFO] started processing file L0706000.log
+06.07.2021 19:56:22 [INFO] successfully processed file L0706000.log
+06.07.2021 20:52:26 [INFO] downloaded file L0706003.log
+06.07.2021 20:52:26 [INFO] started processing file L0706003.log
+06.07.2021 20:52:36 [INFO] successfully processed file L0706003.log
+06.07.2021 21:04:13 [INFO] downloaded file L0706001.log
+06.07.2021 21:04:14 [INFO] started processing file L0706001.log
+06.07.2021 21:04:45 [INFO] successfully processed file L0706001.log
+06.07.2021 21:21:21 [INFO] downloaded file L0706002.log
+06.07.2021 21:21:21 [INFO] started processing file L0706002.log
+06.07.2021 21:21:38 [INFO] successfully processed file L0706002.log
+06.07.2021 21:50:30 [INFO] downloaded file L0706001.log
+06.07.2021 21:50:30 [INFO] started processing file L0706001.log
+06.07.2021 21:50:50 [INFO] successfully processed file L0706001.log
+06.07.2021 22:18:41 [INFO] downloaded file L0706003.log
+06.07.2021 22:18:41 [INFO] started processing file L0706003.log
+06.07.2021 22:18:54 [INFO] successfully processed file L0706003.log
+07.07.2021 0:40:17 [INFO] downloaded file L0706000.log
+07.07.2021 0:40:17 [INFO] started processing file L0706000.log
+07.07.2021 0:40:37 [INFO] successfully processed file L0706000.log
+07.07.2021 0:45:04 [INFO] downloaded file L0707001.log
+07.07.2021 0:45:05 [INFO] started processing file L0707001.log
+07.07.2021 0:45:21 [INFO] successfully processed file L0707001.log
+07.07.2021 1:35:20 [INFO] downloaded file L0707000.log
+07.07.2021 1:35:20 [INFO] started processing file L0707000.log
+07.07.2021 1:35:43 [INFO] successfully processed file L0707000.log
+07.07.2021 2:35:24 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0706000.log
+07.07.2021 5:01:35 [TRACE] Log file loaded
+07.07.2021 5:01:35 [TRACE] Vk Api Token loaded
+07.07.2021 5:01:37 [DEBUG] Loaded server 5271@185.158.112.207:27401
+07.07.2021 5:01:37 [DEBUG] Loaded server 5270@185.158.112.207:27402
+07.07.2021 5:01:37 [DEBUG] Loaded server 5269@185.158.112.207:27403
+07.07.2021 5:01:37 [DEBUG] Loaded server 5268@185.158.112.207:27404
+07.07.2021 5:01:37 [DEBUG] Loaded server 4538@185.158.112.207:27052
+07.07.2021 5:01:37 [DEBUG] Loaded server 4539@185.158.112.207:27053
+07.07.2021 5:01:37 [DEBUG] Loaded server 5275@185.158.113.131:27055
+07.07.2021 5:01:37 [DEBUG] Loaded server 5274@185.158.112.203:27065
+07.07.2021 5:01:38 [TRACE] Config from DB loaded
+07.07.2021 5:01:38 [TRACE] Team Setup thread started
+07.07.2021 5:01:38 [TRACE] PlayerStatisticsProcessing thread started
+07.07.2021 5:01:39 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:39 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:40 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:40 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:41 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:41 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:42 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 5:01:42 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+07.07.2021 6:00:07 [TRACE] Log file loaded
+07.07.2021 6:00:07 [TRACE] Vk Api Token loaded
+07.07.2021 6:00:07 [DEBUG] Loaded server 5271@185.158.112.207:27401
+07.07.2021 6:00:07 [DEBUG] Loaded server 5270@185.158.112.207:27402
+07.07.2021 6:00:07 [DEBUG] Loaded server 5269@185.158.112.207:27403
+07.07.2021 6:00:07 [DEBUG] Loaded server 5268@185.158.112.207:27404
+07.07.2021 6:00:07 [DEBUG] Loaded server 4538@185.158.112.207:27052
+07.07.2021 6:00:07 [DEBUG] Loaded server 4539@185.158.112.207:27053
+07.07.2021 6:00:07 [DEBUG] Loaded server 5275@185.158.113.131:27055
+07.07.2021 6:00:07 [DEBUG] Loaded server 5274@185.158.112.203:27065
+07.07.2021 6:00:07 [TRACE] Config from DB loaded
+07.07.2021 6:00:07 [TRACE] Team Setup thread started
+07.07.2021 6:00:07 [TRACE] PlayerStatisticsProcessing thread started
+07.07.2021 7:01:06 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+07.07.2021 13:08:59 [INFO] downloaded file L0707000.log
+07.07.2021 13:08:59 [INFO] started processing file L0707000.log
+07.07.2021 13:09:11 [INFO] successfully processed file L0707000.log
+07.07.2021 13:56:59 [INFO] downloaded file L0707000.log
+07.07.2021 13:56:59 [INFO] started processing file L0707000.log
+07.07.2021 13:57:18 [INFO] successfully processed file L0707000.log
+07.07.2021 14:17:32 [INFO] downloaded file L0707001.log
+07.07.2021 14:17:32 [INFO] started processing file L0707001.log
+07.07.2021 14:17:46 [INFO] successfully processed file L0707001.log
+07.07.2021 14:45:06 [INFO] downloaded file L0707000.log
+07.07.2021 14:45:06 [INFO] started processing file L0707000.log
+07.07.2021 14:45:35 [INFO] successfully processed file L0707000.log
+07.07.2021 15:22:03 [INFO] downloaded file L0707000.log
+07.07.2021 15:22:03 [INFO] started processing file L0707000.log
+07.07.2021 15:22:20 [INFO] successfully processed file L0707000.log
+07.07.2021 15:56:38 [INFO] downloaded file L0707003.log
+07.07.2021 15:56:39 [INFO] started processing file L0707003.log
+07.07.2021 15:56:42 [INFO] successfully processed file L0707003.log
+07.07.2021 16:10:00 [INFO] downloaded file L0707001.log
+07.07.2021 16:10:00 [INFO] started processing file L0707001.log
+07.07.2021 16:10:11 [INFO] successfully processed file L0707001.log
+07.07.2021 16:15:58 [INFO] downloaded file L0707001.log
+07.07.2021 16:15:59 [INFO] started processing file L0707001.log
+07.07.2021 16:16:16 [INFO] successfully processed file L0707001.log
+07.07.2021 16:31:12 [INFO] downloaded file L0707003.log
+07.07.2021 16:31:12 [INFO] started processing file L0707003.log
+07.07.2021 16:31:16 [INFO] successfully processed file L0707003.log
+07.07.2021 16:49:13 [INFO] downloaded file L0707001.log
+07.07.2021 16:49:13 [INFO] started processing file L0707001.log
+07.07.2021 16:49:20 [INFO] successfully processed file L0707001.log
+07.07.2021 17:26:32 [INFO] downloaded file L0707001.log
+07.07.2021 17:26:32 [INFO] started processing file L0707001.log
+07.07.2021 17:26:45 [INFO] successfully processed file L0707001.log
+07.07.2021 18:14:46 [INFO] downloaded file L0707002.log
+07.07.2021 18:14:46 [INFO] started processing file L0707002.log
+07.07.2021 18:15:14 [INFO] successfully processed file L0707002.log
+07.07.2021 18:41:42 [INFO] downloaded file L0707000.log
+07.07.2021 18:41:42 [INFO] started processing file L0707000.log
+07.07.2021 18:41:57 [INFO] successfully processed file L0707000.log
+07.07.2021 18:57:18 [INFO] downloaded file L0707001.log
+07.07.2021 18:57:18 [INFO] started processing file L0707001.log
+07.07.2021 18:57:24 [INFO] successfully processed file L0707001.log
+07.07.2021 19:07:20 [INFO] downloaded file L0707003.log
+07.07.2021 19:07:21 [INFO] started processing file L0707003.log
+07.07.2021 19:07:44 [INFO] successfully processed file L0707003.log
+07.07.2021 19:13:53 [INFO] downloaded file L0707003.log
+07.07.2021 19:13:54 [INFO] started processing file L0707003.log
+07.07.2021 19:13:56 [INFO] successfully processed file L0707003.log
+07.07.2021 19:28:38 [INFO] downloaded file L0707001.log
+07.07.2021 19:28:38 [INFO] started processing file L0707001.log
+07.07.2021 19:29:05 [INFO] successfully processed file L0707001.log
+07.07.2021 19:29:26 [INFO] downloaded file L0707000.log
+07.07.2021 19:29:27 [INFO] started processing file L0707000.log
+07.07.2021 19:29:36 [INFO] successfully processed file L0707000.log
+07.07.2021 19:46:35 [INFO] downloaded file L0707001.log
+07.07.2021 19:46:35 [INFO] started processing file L0707001.log
+07.07.2021 19:46:43 [INFO] successfully processed file L0707001.log
+07.07.2021 20:09:31 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0707000.log
+07.07.2021 20:13:58 [INFO] downloaded file L0707001.log
+07.07.2021 20:13:58 [INFO] started processing file L0707001.log
+07.07.2021 20:14:07 [INFO] successfully processed file L0707001.log
+07.07.2021 20:26:07 [INFO] downloaded file L0707002.log
+07.07.2021 20:26:07 [INFO] started processing file L0707002.log
+07.07.2021 20:26:13 [INFO] successfully processed file L0707002.log
+07.07.2021 20:28:59 [INFO] downloaded file L0707004.log
+07.07.2021 20:28:59 [INFO] started processing file L0707004.log
+07.07.2021 20:29:15 [INFO] successfully processed file L0707004.log
+07.07.2021 20:48:32 [INFO] downloaded file L0707001.log
+07.07.2021 20:48:32 [INFO] started processing file L0707001.log
+07.07.2021 20:48:42 [INFO] successfully processed file L0707001.log
+07.07.2021 20:57:40 [INFO] downloaded file L0707002.log
+07.07.2021 20:57:40 [INFO] started processing file L0707002.log
+07.07.2021 20:57:57 [INFO] successfully processed file L0707002.log
+07.07.2021 21:03:49 [INFO] downloaded file L0707001.log
+07.07.2021 21:03:50 [INFO] started processing file L0707001.log
+07.07.2021 21:03:59 [INFO] successfully processed file L0707001.log
+07.07.2021 21:08:07 [INFO] downloaded file L0707004.log
+07.07.2021 21:08:08 [INFO] started processing file L0707004.log
+07.07.2021 21:08:25 [INFO] successfully processed file L0707004.log
+07.07.2021 21:24:16 [INFO] downloaded file L0707000.log
+07.07.2021 21:24:16 [INFO] started processing file L0707000.log
+07.07.2021 21:24:30 [INFO] successfully processed file L0707000.log
+07.07.2021 21:34:13 [INFO] downloaded file L0707001.log
+07.07.2021 21:34:13 [INFO] started processing file L0707001.log
+07.07.2021 21:34:26 [INFO] successfully processed file L0707001.log
+07.07.2021 21:41:26 [INFO] downloaded file L0707002.log
+07.07.2021 21:41:30 [INFO] started processing file L0707002.log
+07.07.2021 21:41:47 [INFO] successfully processed file L0707002.log
+07.07.2021 21:44:34 [INFO] downloaded file L0707003.log
+07.07.2021 21:44:34 [INFO] started processing file L0707003.log
+07.07.2021 21:44:43 [INFO] successfully processed file L0707003.log
+07.07.2021 21:46:27 [INFO] downloaded file L0707006.log
+07.07.2021 21:46:28 [INFO] started processing file L0707006.log
+07.07.2021 21:46:37 [INFO] successfully processed file L0707006.log
+07.07.2021 22:01:46 [INFO] downloaded file L0707001.log
+07.07.2021 22:01:46 [INFO] started processing file L0707001.log
+07.07.2021 22:02:03 [INFO] successfully processed file L0707001.log
+07.07.2021 22:04:48 [INFO] downloaded file L0707004.log
+07.07.2021 22:04:49 [INFO] started processing file L0707004.log
+07.07.2021 22:05:12 [INFO] successfully processed file L0707004.log
+07.07.2021 22:39:26 [INFO] downloaded file L0707002.log
+07.07.2021 22:39:26 [INFO] started processing file L0707002.log
+07.07.2021 22:39:39 [INFO] successfully processed file L0707002.log
+07.07.2021 23:12:34 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0707001.log
+07.07.2021 23:17:23 [INFO] downloaded file L0707005.log
+07.07.2021 23:17:24 [INFO] started processing file L0707005.log
+07.07.2021 23:17:37 [INFO] successfully processed file L0707005.log
+07.07.2021 23:20:42 [INFO] downloaded file L0707002.log
+07.07.2021 23:20:43 [INFO] started processing file L0707002.log
+07.07.2021 23:20:59 [INFO] successfully processed file L0707002.log
+07.07.2021 23:54:18 [INFO] downloaded file L0707005.log
+07.07.2021 23:54:18 [INFO] started processing file L0707005.log
+07.07.2021 23:54:31 [INFO] successfully processed file L0707005.log
+07.07.2021 23:59:42 [INFO] downloaded file L0707003.log
+07.07.2021 23:59:42 [INFO] started processing file L0707003.log
+07.07.2021 23:59:51 [INFO] successfully processed file L0707003.log
+08.07.2021 0:02:37 [INFO] downloaded file L0707002.log
+08.07.2021 0:02:38 [INFO] started processing file L0707002.log
+08.07.2021 0:02:54 [INFO] successfully processed file L0707002.log
+08.07.2021 0:49:38 [INFO] downloaded file L0708000.log
+08.07.2021 0:49:39 [INFO] started processing file L0708000.log
+08.07.2021 0:49:55 [INFO] successfully processed file L0708000.log
+08.07.2021 1:09:16 [INFO] downloaded file L0708000.log
+08.07.2021 1:09:17 [INFO] started processing file L0708000.log
+08.07.2021 1:09:36 [INFO] successfully processed file L0708000.log
+08.07.2021 1:14:26 [INFO] downloaded file L0708001.log
+08.07.2021 1:14:27 [INFO] started processing file L0708001.log
+08.07.2021 1:14:33 [INFO] successfully processed file L0708001.log
+08.07.2021 1:26:54 [INFO] downloaded file L0708000.log
+08.07.2021 1:26:54 [INFO] started processing file L0708000.log
+08.07.2021 1:27:10 [INFO] successfully processed file L0708000.log
+08.07.2021 2:14:47 [INFO] downloaded file L0708000.log
+08.07.2021 2:14:47 [INFO] started processing file L0708000.log
+08.07.2021 2:15:03 [INFO] successfully processed file L0708000.log
+08.07.2021 5:01:27 [TRACE] Log file loaded
+08.07.2021 5:01:27 [TRACE] Vk Api Token loaded
+08.07.2021 5:01:29 [DEBUG] Loaded server 5271@185.158.112.207:27401
+08.07.2021 5:01:29 [DEBUG] Loaded server 5270@185.158.112.207:27402
+08.07.2021 5:01:29 [DEBUG] Loaded server 5269@185.158.112.207:27403
+08.07.2021 5:01:29 [DEBUG] Loaded server 5268@185.158.112.207:27404
+08.07.2021 5:01:29 [DEBUG] Loaded server 4538@185.158.112.207:27052
+08.07.2021 5:01:29 [DEBUG] Loaded server 4539@185.158.112.207:27053
+08.07.2021 5:01:29 [DEBUG] Loaded server 5275@185.158.113.131:27055
+08.07.2021 5:01:29 [DEBUG] Loaded server 5274@185.158.112.203:27065
+08.07.2021 5:01:29 [TRACE] Config from DB loaded
+08.07.2021 5:01:29 [TRACE] Team Setup thread started
+08.07.2021 5:01:29 [TRACE] PlayerStatisticsProcessing thread started
+08.07.2021 5:01:31 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:31 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:31 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:32 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:32 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:33 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:33 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+08.07.2021 6:00:07 [TRACE] Log file loaded
+08.07.2021 6:00:07 [TRACE] Vk Api Token loaded
+08.07.2021 6:00:08 [DEBUG] Loaded server 5271@185.158.112.207:27401
+08.07.2021 6:00:08 [DEBUG] Loaded server 5270@185.158.112.207:27402
+08.07.2021 6:00:08 [DEBUG] Loaded server 5269@185.158.112.207:27403
+08.07.2021 6:00:08 [DEBUG] Loaded server 5268@185.158.112.207:27404
+08.07.2021 6:00:08 [DEBUG] Loaded server 4538@185.158.112.207:27052
+08.07.2021 6:00:08 [DEBUG] Loaded server 4539@185.158.112.207:27053
+08.07.2021 6:00:08 [DEBUG] Loaded server 5275@185.158.113.131:27055
+08.07.2021 6:00:08 [DEBUG] Loaded server 5274@185.158.112.203:27065
+08.07.2021 6:00:08 [TRACE] Config from DB loaded
+08.07.2021 6:00:08 [TRACE] Team Setup thread started
+08.07.2021 6:00:08 [TRACE] PlayerStatisticsProcessing thread started
+08.07.2021 10:37:03 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+08.07.2021 13:36:42 [INFO] downloaded file L0708001.log
+08.07.2021 13:36:42 [INFO] started processing file L0708001.log
+08.07.2021 13:36:50 [INFO] successfully processed file L0708001.log
+08.07.2021 14:23:02 [INFO] downloaded file L0708001.log
+08.07.2021 14:23:03 [INFO] started processing file L0708001.log
+08.07.2021 14:23:12 [INFO] successfully processed file L0708001.log
+08.07.2021 14:33:25 [INFO] downloaded file L0708000.log
+08.07.2021 14:33:25 [INFO] started processing file L0708000.log
+08.07.2021 14:33:35 [INFO] successfully processed file L0708000.log
+08.07.2021 14:54:25 [INFO] downloaded file L0708001.log
+08.07.2021 14:54:25 [INFO] started processing file L0708001.log
+08.07.2021 14:54:48 [INFO] successfully processed file L0708001.log
+08.07.2021 14:57:53 [INFO] downloaded file L0708001.log
+08.07.2021 14:57:53 [INFO] started processing file L0708001.log
+08.07.2021 14:58:04 [INFO] successfully processed file L0708001.log
+08.07.2021 15:07:56 [INFO] downloaded file L0708000.log
+08.07.2021 15:07:56 [INFO] started processing file L0708000.log
+08.07.2021 15:08:05 [INFO] successfully processed file L0708000.log
+08.07.2021 15:28:38 [INFO] downloaded file L0708001.log
+08.07.2021 15:28:38 [INFO] started processing file L0708001.log
+08.07.2021 15:28:55 [INFO] successfully processed file L0708001.log
+08.07.2021 16:13:15 [INFO] downloaded file L0708001.log
+08.07.2021 16:13:15 [INFO] started processing file L0708001.log
+08.07.2021 16:13:25 [INFO] successfully processed file L0708001.log
+08.07.2021 17:04:34 [INFO] downloaded file L0708003.log
+08.07.2021 17:04:34 [INFO] started processing file L0708003.log
+08.07.2021 17:04:51 [INFO] successfully processed file L0708003.log
+08.07.2021 17:27:28 [INFO] downloaded file L0708000.log
+08.07.2021 17:27:28 [INFO] started processing file L0708000.log
+08.07.2021 17:27:35 [INFO] successfully processed file L0708000.log
+08.07.2021 17:38:37 [INFO] downloaded file L0708002.log
+08.07.2021 17:38:37 [INFO] started processing file L0708002.log
+08.07.2021 17:38:57 [INFO] successfully processed file L0708002.log
+08.07.2021 17:50:39 [INFO] downloaded file L0708003.log
+08.07.2021 17:50:39 [INFO] started processing file L0708003.log
+08.07.2021 17:50:55 [INFO] successfully processed file L0708003.log
+08.07.2021 18:06:01 [INFO] downloaded file L0708002.log
+08.07.2021 18:06:02 [INFO] started processing file L0708002.log
+08.07.2021 18:06:08 [INFO] successfully processed file L0708002.log
+08.07.2021 18:06:30 [INFO] downloaded file L0708000.log
+08.07.2021 18:06:30 [INFO] started processing file L0708000.log
+08.07.2021 18:06:40 [INFO] successfully processed file L0708000.log
+08.07.2021 18:39:27 [INFO] downloaded file L0708000.log
+08.07.2021 18:39:27 [INFO] started processing file L0708000.log
+08.07.2021 18:39:40 [INFO] successfully processed file L0708000.log
+08.07.2021 18:55:23 [INFO] downloaded file L0708003.log
+08.07.2021 18:55:24 [INFO] started processing file L0708003.log
+08.07.2021 18:55:41 [INFO] successfully processed file L0708003.log
+08.07.2021 19:38:15 [INFO] downloaded file L0708003.log
+08.07.2021 19:38:15 [INFO] started processing file L0708003.log
+08.07.2021 19:38:32 [INFO] successfully processed file L0708003.log
+08.07.2021 19:48:34 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+08.07.2021 19:54:07 [INFO] downloaded file L0708001.log
+08.07.2021 19:54:07 [INFO] started processing file L0708001.log
+08.07.2021 19:54:24 [INFO] successfully processed file L0708001.log
+08.07.2021 20:02:02 [INFO] downloaded file L0708001.log
+08.07.2021 20:02:03 [INFO] started processing file L0708001.log
+08.07.2021 20:02:16 [INFO] successfully processed file L0708001.log
+08.07.2021 20:06:46 [INFO] downloaded file L0708001.log
+08.07.2021 20:06:46 [INFO] started processing file L0708001.log
+08.07.2021 20:06:53 [INFO] successfully processed file L0708001.log
+08.07.2021 20:22:28 [INFO] downloaded file L0708003.log
+08.07.2021 20:22:29 [INFO] started processing file L0708003.log
+08.07.2021 20:22:39 [INFO] successfully processed file L0708003.log
+08.07.2021 20:26:08 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0708002.log
+08.07.2021 20:30:40 [INFO] downloaded file L0708004.log
+08.07.2021 20:30:41 [INFO] started processing file L0708004.log
+08.07.2021 20:30:54 [INFO] successfully processed file L0708004.log
+08.07.2021 20:38:34 [INFO] downloaded file L0708001.log
+08.07.2021 20:38:34 [INFO] started processing file L0708001.log
+08.07.2021 20:38:40 [INFO] successfully processed file L0708001.log
+08.07.2021 20:49:27 [INFO] downloaded file L0708001.log
+08.07.2021 20:49:27 [INFO] started processing file L0708001.log
+08.07.2021 20:49:41 [INFO] successfully processed file L0708001.log
+08.07.2021 21:04:39 [INFO] downloaded file L0708004.log
+08.07.2021 21:04:39 [INFO] started processing file L0708004.log
+08.07.2021 21:04:49 [INFO] successfully processed file L0708004.log
+08.07.2021 21:05:13 [INFO] downloaded file L0708002.log
+08.07.2021 21:05:13 [INFO] started processing file L0708002.log
+08.07.2021 21:05:26 [INFO] successfully processed file L0708002.log
+08.07.2021 21:19:39 [INFO] downloaded file L0708002.log
+08.07.2021 21:19:39 [INFO] started processing file L0708002.log
+08.07.2021 21:19:52 [INFO] successfully processed file L0708002.log
+08.07.2021 21:33:02 [INFO] downloaded file L0708001.log
+08.07.2021 21:33:03 [INFO] started processing file L0708001.log
+08.07.2021 21:33:05 [INFO] successfully processed file L0708001.log
+08.07.2021 21:48:02 [INFO] downloaded file L0708004.log
+08.07.2021 21:48:03 [INFO] started processing file L0708004.log
+08.07.2021 21:48:17 [INFO] successfully processed file L0708004.log
+08.07.2021 21:52:28 [INFO] downloaded file L0708005.log
+08.07.2021 21:52:29 [INFO] started processing file L0708005.log
+08.07.2021 21:52:41 [INFO] successfully processed file L0708005.log
+08.07.2021 22:12:15 [INFO] downloaded file L0708001.log
+08.07.2021 22:12:15 [INFO] started processing file L0708001.log
+08.07.2021 22:12:18 [INFO] successfully processed file L0708001.log
+08.07.2021 22:14:03 [INFO] downloaded file L0708002.log
+08.07.2021 22:14:04 [INFO] started processing file L0708002.log
+08.07.2021 22:14:23 [INFO] successfully processed file L0708002.log
+08.07.2021 22:18:34 [INFO] downloaded file L0708004.log
+08.07.2021 22:18:35 [INFO] started processing file L0708004.log
+08.07.2021 22:18:42 [INFO] successfully processed file L0708004.log
+08.07.2021 22:38:47 [INFO] downloaded file L0708003.log
+08.07.2021 22:38:47 [INFO] started processing file L0708003.log
+08.07.2021 22:38:57 [INFO] successfully processed file L0708003.log
+08.07.2021 23:11:39 [INFO] downloaded file L0708004.log
+08.07.2021 23:11:40 [INFO] started processing file L0708004.log
+08.07.2021 23:11:56 [INFO] successfully processed file L0708004.log
+08.07.2021 23:17:11 [INFO] downloaded file L0708001.log
+08.07.2021 23:17:11 [INFO] started processing file L0708001.log
+08.07.2021 23:17:24 [INFO] successfully processed file L0708001.log
+08.07.2021 23:24:43 [INFO] downloaded file L0708003.log
+08.07.2021 23:24:43 [INFO] started processing file L0708003.log
+08.07.2021 23:24:57 [INFO] successfully processed file L0708003.log
+08.07.2021 23:26:42 [INFO] downloaded file L0708005.log
+08.07.2021 23:26:42 [INFO] started processing file L0708005.log
+08.07.2021 23:27:01 [INFO] successfully processed file L0708005.log
+08.07.2021 23:52:48 [INFO] downloaded file L0708001.log
+08.07.2021 23:52:48 [INFO] started processing file L0708001.log
+08.07.2021 23:53:01 [INFO] successfully processed file L0708001.log
+08.07.2021 23:53:22 [INFO] downloaded file L0708004.log
+08.07.2021 23:53:23 [INFO] started processing file L0708004.log
+08.07.2021 23:53:32 [INFO] successfully processed file L0708004.log
+09.07.2021 0:01:53 [INFO] downloaded file L0708003.log
+09.07.2021 0:01:53 [INFO] started processing file L0708003.log
+09.07.2021 0:02:06 [INFO] successfully processed file L0708003.log
+09.07.2021 0:14:59 [INFO] downloaded file L0708002.log
+09.07.2021 0:14:59 [INFO] started processing file L0708002.log
+09.07.2021 0:15:16 [INFO] successfully processed file L0708002.log
+09.07.2021 0:28:28 [INFO] downloaded file L0708004.log
+09.07.2021 0:28:29 [INFO] started processing file L0708004.log
+09.07.2021 0:28:44 [INFO] successfully processed file L0708004.log
+09.07.2021 0:40:12 [INFO] downloaded file L0709000.log
+09.07.2021 0:40:13 [INFO] started processing file L0709000.log
+09.07.2021 0:40:29 [INFO] successfully processed file L0709000.log
+09.07.2021 1:02:42 [INFO] downloaded file L0709001.log
+09.07.2021 1:02:43 [INFO] started processing file L0709001.log
+09.07.2021 1:02:56 [INFO] successfully processed file L0709001.log
+09.07.2021 1:26:33 [INFO] downloaded file L0709000.log
+09.07.2021 1:26:34 [INFO] started processing file L0709000.log
+09.07.2021 1:26:56 [INFO] successfully processed file L0709000.log
+09.07.2021 2:06:06 [INFO] downloaded file L0709000.log
+09.07.2021 2:06:07 [INFO] started processing file L0709000.log
+09.07.2021 2:06:26 [INFO] successfully processed file L0709000.log
+09.07.2021 2:57:10 [INFO] downloaded file L0709000.log
+09.07.2021 2:57:10 [INFO] started processing file L0709000.log
+09.07.2021 2:57:33 [INFO] successfully processed file L0709000.log
+09.07.2021 5:00:17 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:31 [TRACE] Log file loaded
+09.07.2021 5:01:31 [TRACE] Vk Api Token loaded
+09.07.2021 5:01:33 [DEBUG] Loaded server 5271@185.158.112.207:27401
+09.07.2021 5:01:33 [DEBUG] Loaded server 5270@185.158.112.207:27402
+09.07.2021 5:01:33 [DEBUG] Loaded server 5269@185.158.112.207:27403
+09.07.2021 5:01:33 [DEBUG] Loaded server 5268@185.158.112.207:27404
+09.07.2021 5:01:33 [DEBUG] Loaded server 4538@185.158.112.207:27052
+09.07.2021 5:01:33 [DEBUG] Loaded server 4539@185.158.112.207:27053
+09.07.2021 5:01:33 [DEBUG] Loaded server 5275@185.158.113.131:27055
+09.07.2021 5:01:33 [DEBUG] Loaded server 5274@185.158.112.203:27065
+09.07.2021 5:01:33 [TRACE] Config from DB loaded
+09.07.2021 5:01:33 [TRACE] Team Setup thread started
+09.07.2021 5:01:33 [TRACE] PlayerStatisticsProcessing thread started
+09.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 5:01:38 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+09.07.2021 6:00:07 [TRACE] Log file loaded
+09.07.2021 6:00:07 [TRACE] Vk Api Token loaded
+09.07.2021 6:00:07 [DEBUG] Loaded server 5271@185.158.112.207:27401
+09.07.2021 6:00:07 [DEBUG] Loaded server 5270@185.158.112.207:27402
+09.07.2021 6:00:07 [DEBUG] Loaded server 5269@185.158.112.207:27403
+09.07.2021 6:00:07 [DEBUG] Loaded server 5268@185.158.112.207:27404
+09.07.2021 6:00:07 [DEBUG] Loaded server 4538@185.158.112.207:27052
+09.07.2021 6:00:07 [DEBUG] Loaded server 4539@185.158.112.207:27053
+09.07.2021 6:00:07 [DEBUG] Loaded server 5275@185.158.113.131:27055
+09.07.2021 6:00:07 [DEBUG] Loaded server 5274@185.158.112.203:27065
+09.07.2021 6:00:07 [TRACE] Config from DB loaded
+09.07.2021 6:00:07 [TRACE] Team Setup thread started
+09.07.2021 6:00:07 [TRACE] PlayerStatisticsProcessing thread started
+09.07.2021 10:11:37 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+09.07.2021 12:20:27 [INFO] downloaded file L0709000.log
+09.07.2021 12:20:27 [INFO] started processing file L0709000.log
+09.07.2021 12:20:35 [INFO] successfully processed file L0709000.log
+09.07.2021 12:22:57 [INFO] downloaded file L0709001.log
+09.07.2021 12:22:58 [INFO] started processing file L0709001.log
+09.07.2021 12:23:04 [INFO] successfully processed file L0709001.log
+09.07.2021 12:57:22 [INFO] downloaded file L0709000.log
+09.07.2021 12:57:22 [INFO] started processing file L0709000.log
+09.07.2021 12:57:38 [INFO] successfully processed file L0709000.log
+09.07.2021 13:13:49 [INFO] downloaded file L0709001.log
+09.07.2021 13:13:49 [INFO] started processing file L0709001.log
+09.07.2021 13:13:56 [INFO] successfully processed file L0709001.log
+09.07.2021 13:35:12 [INFO] downloaded file L0709000.log
+09.07.2021 13:35:12 [INFO] started processing file L0709000.log
+09.07.2021 13:35:29 [INFO] successfully processed file L0709000.log
+09.07.2021 13:44:54 [INFO] downloaded file L0709001.log
+09.07.2021 13:44:54 [INFO] started processing file L0709001.log
+09.07.2021 13:45:00 [INFO] successfully processed file L0709001.log
+09.07.2021 14:03:10 [INFO] downloaded file L0709000.log
+09.07.2021 14:03:10 [INFO] started processing file L0709000.log
+09.07.2021 14:03:26 [INFO] successfully processed file L0709000.log
+09.07.2021 14:49:10 [INFO] downloaded file L0709000.log
+09.07.2021 14:49:10 [INFO] started processing file L0709000.log
+09.07.2021 14:49:38 [INFO] successfully processed file L0709000.log
+09.07.2021 14:56:42 [INFO] downloaded file L0709001.log
+09.07.2021 14:56:42 [INFO] started processing file L0709001.log
+09.07.2021 14:56:45 [INFO] successfully processed file L0709001.log
+09.07.2021 15:27:44 [INFO] downloaded file L0709000.log
+09.07.2021 15:27:44 [INFO] started processing file L0709000.log
+09.07.2021 15:28:00 [INFO] successfully processed file L0709000.log
+09.07.2021 15:45:06 [INFO] downloaded file L0709001.log
+09.07.2021 15:45:06 [INFO] started processing file L0709001.log
+09.07.2021 15:45:08 [INFO] successfully processed file L0709001.log
+09.07.2021 16:10:17 [INFO] downloaded file L0709001.log
+09.07.2021 16:10:17 [INFO] started processing file L0709001.log
+09.07.2021 16:10:20 [INFO] successfully processed file L0709001.log
+09.07.2021 16:29:12 [INFO] downloaded file L0709000.log
+09.07.2021 16:29:12 [INFO] started processing file L0709000.log
+09.07.2021 16:29:29 [INFO] successfully processed file L0709000.log
+09.07.2021 17:40:08 [INFO] downloaded file L0709001.log
+09.07.2021 17:40:08 [INFO] started processing file L0709001.log
+09.07.2021 17:40:29 [INFO] successfully processed file L0709001.log
+09.07.2021 18:07:06 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+09.07.2021 18:28:09 [INFO] downloaded file L0709001.log
+09.07.2021 18:28:10 [INFO] started processing file L0709001.log
+09.07.2021 18:28:30 [INFO] successfully processed file L0709001.log
+09.07.2021 18:32:36 [INFO] downloaded file L0709001.log
+09.07.2021 18:32:36 [INFO] started processing file L0709001.log
+09.07.2021 18:32:46 [INFO] successfully processed file L0709001.log
+09.07.2021 18:41:14 [INFO] downloaded file L0709001.log
+09.07.2021 18:41:15 [INFO] started processing file L0709001.log
+09.07.2021 18:41:24 [INFO] successfully processed file L0709001.log
+09.07.2021 18:45:08 [INFO] downloaded file L0709001.log
+09.07.2021 18:45:08 [INFO] started processing file L0709001.log
+09.07.2021 18:45:18 [INFO] successfully processed file L0709001.log
+09.07.2021 19:28:09 [INFO] downloaded file L0709002.log
+09.07.2021 19:28:09 [INFO] started processing file L0709002.log
+09.07.2021 19:28:29 [INFO] successfully processed file L0709002.log
+09.07.2021 19:30:33 [INFO] downloaded file L0709002.log
+09.07.2021 19:30:33 [INFO] started processing file L0709002.log
+09.07.2021 19:30:39 [INFO] successfully processed file L0709002.log
+09.07.2021 19:36:47 [INFO] downloaded file L0709001.log
+09.07.2021 19:36:47 [INFO] started processing file L0709001.log
+09.07.2021 19:37:00 [INFO] successfully processed file L0709001.log
+09.07.2021 20:12:02 [INFO] downloaded file L0709002.log
+09.07.2021 20:12:03 [INFO] started processing file L0709002.log
+09.07.2021 20:12:09 [INFO] successfully processed file L0709002.log
+09.07.2021 20:42:38 [INFO] downloaded file L0709001.log
+09.07.2021 20:42:39 [INFO] started processing file L0709001.log
+09.07.2021 20:42:56 [INFO] successfully processed file L0709001.log
+09.07.2021 20:44:40 [INFO] downloaded file L0709001.log
+09.07.2021 20:44:40 [INFO] started processing file L0709001.log
+09.07.2021 20:44:46 [INFO] successfully processed file L0709001.log
+09.07.2021 20:54:01 [INFO] downloaded file L0709002.log
+09.07.2021 20:54:01 [INFO] started processing file L0709002.log
+09.07.2021 20:54:14 [INFO] successfully processed file L0709002.log
+09.07.2021 21:11:23 [INFO] downloaded file L0709003.log
+09.07.2021 21:11:23 [INFO] started processing file L0709003.log
+09.07.2021 21:11:29 [INFO] successfully processed file L0709003.log
+09.07.2021 21:19:02 [INFO] downloaded file L0709001.log
+09.07.2021 21:19:03 [INFO] started processing file L0709001.log
+09.07.2021 21:19:20 [INFO] successfully processed file L0709001.log
+09.07.2021 21:25:09 [INFO] downloaded file L0709002.log
+09.07.2021 21:25:10 [INFO] started processing file L0709002.log
+09.07.2021 21:25:26 [INFO] successfully processed file L0709002.log
+09.07.2021 21:45:22 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0709002.log
+09.07.2021 21:53:17 [INFO] downloaded file L0709001.log
+09.07.2021 21:53:18 [INFO] started processing file L0709001.log
+09.07.2021 21:53:34 [INFO] successfully processed file L0709001.log
+09.07.2021 21:54:37 [INFO] downloaded file L0709003.log
+09.07.2021 21:54:37 [INFO] started processing file L0709003.log
+09.07.2021 21:54:57 [INFO] successfully processed file L0709003.log
+09.07.2021 22:00:27 [INFO] downloaded file L0709002.log
+09.07.2021 22:00:27 [INFO] started processing file L0709002.log
+09.07.2021 22:00:45 [INFO] successfully processed file L0709002.log
+09.07.2021 22:37:12 [INFO] downloaded file L0709003.log
+09.07.2021 22:37:12 [INFO] started processing file L0709003.log
+09.07.2021 22:37:12 [ERROR] System.ArgumentOutOfRangeException: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в WorkNode.WorkClass.MultiCountProcessing(String filePath)
+   в WorkNode.WorkClass.PlayerStatisticsProcessing(Object dirPath) C:\kTVCSS\_process\WorkNode\Logs\4538_185.158.112.207\L0709003.log
+09.07.2021 22:37:14 [TRACE] Log file loaded
+09.07.2021 22:37:14 [TRACE] Vk Api Token loaded
+09.07.2021 22:37:14 [DEBUG] Loaded server 5271@185.158.112.207:27401
+09.07.2021 22:37:14 [DEBUG] Loaded server 5270@185.158.112.207:27402
+09.07.2021 22:37:14 [DEBUG] Loaded server 5269@185.158.112.207:27403
+09.07.2021 22:37:14 [DEBUG] Loaded server 5268@185.158.112.207:27404
+09.07.2021 22:37:14 [DEBUG] Loaded server 4538@185.158.112.207:27052
+09.07.2021 22:37:14 [DEBUG] Loaded server 4539@185.158.112.207:27053
+09.07.2021 22:37:14 [DEBUG] Loaded server 5275@185.158.113.131:27055
+09.07.2021 22:37:14 [DEBUG] Loaded server 5274@185.158.112.203:27065
+09.07.2021 22:37:14 [TRACE] Config from DB loaded
+09.07.2021 22:37:14 [TRACE] Team Setup thread started
+09.07.2021 22:37:14 [TRACE] PlayerStatisticsProcessing thread started
+09.07.2021 22:37:36 [INFO] downloaded file L0709003.log
+09.07.2021 22:37:36 [INFO] started processing file L0709003.log
+09.07.2021 22:37:50 [INFO] successfully processed file L0709003.log
+09.07.2021 22:51:55 [INFO] downloaded file L0709002.log
+09.07.2021 22:51:56 [INFO] started processing file L0709002.log
+09.07.2021 22:52:16 [INFO] successfully processed file L0709002.log
+09.07.2021 23:20:31 [INFO] downloaded file L0709003.log
+09.07.2021 23:20:31 [INFO] started processing file L0709003.log
+09.07.2021 23:20:41 [INFO] successfully processed file L0709003.log
+10.07.2021 0:16:41 [INFO] downloaded file L0709003.log
+10.07.2021 0:16:41 [INFO] started processing file L0709003.log
+10.07.2021 0:17:01 [INFO] successfully processed file L0709003.log
+10.07.2021 0:45:15 [INFO] downloaded file L0710000.log
+10.07.2021 0:45:15 [INFO] started processing file L0710000.log
+10.07.2021 0:45:25 [INFO] successfully processed file L0710000.log
+10.07.2021 1:02:59 [INFO] downloaded file L0710001.log
+10.07.2021 1:03:00 [INFO] started processing file L0710001.log
+10.07.2021 1:03:17 [INFO] successfully processed file L0710001.log
+10.07.2021 1:45:56 [INFO] downloaded file L0710002.log
+10.07.2021 1:45:56 [INFO] started processing file L0710002.log
+10.07.2021 1:46:22 [INFO] successfully processed file L0710002.log
+10.07.2021 2:15:16 [INFO] downloaded file L0710002.log
+10.07.2021 2:15:17 [INFO] started processing file L0710002.log
+10.07.2021 2:15:41 [INFO] successfully processed file L0710002.log
+10.07.2021 3:01:05 [INFO] downloaded file L0710002.log
+10.07.2021 3:01:06 [INFO] started processing file L0710002.log
+10.07.2021 3:01:29 [INFO] successfully processed file L0710002.log
+10.07.2021 3:44:07 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
+10.07.2021 3:52:02 [INFO] downloaded file L0710002.log
+10.07.2021 3:52:02 [INFO] started processing file L0710002.log
+10.07.2021 3:52:25 [INFO] successfully processed file L0710002.log
+10.07.2021 5:01:29 [TRACE] Log file loaded
+10.07.2021 5:01:30 [TRACE] Vk Api Token loaded
+10.07.2021 5:01:32 [DEBUG] Loaded server 5271@185.158.112.207:27401
+10.07.2021 5:01:32 [DEBUG] Loaded server 5270@185.158.112.207:27402
+10.07.2021 5:01:32 [DEBUG] Loaded server 5269@185.158.112.207:27403
+10.07.2021 5:01:32 [DEBUG] Loaded server 5268@185.158.112.207:27404
+10.07.2021 5:01:32 [DEBUG] Loaded server 4538@185.158.112.207:27052
+10.07.2021 5:01:32 [DEBUG] Loaded server 4539@185.158.112.207:27053
+10.07.2021 5:01:32 [DEBUG] Loaded server 5275@185.158.113.131:27055
+10.07.2021 5:01:32 [DEBUG] Loaded server 5274@185.158.112.203:27065
+10.07.2021 5:01:32 [TRACE] Config from DB loaded
+10.07.2021 5:01:32 [TRACE] Team Setup thread started
+10.07.2021 5:01:32 [TRACE] PlayerStatisticsProcessing thread started
+10.07.2021 5:01:33 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:33 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+10.07.2021 6:00:06 [TRACE] Log file loaded
+10.07.2021 6:00:06 [TRACE] Vk Api Token loaded
+10.07.2021 6:00:06 [DEBUG] Loaded server 5271@185.158.112.207:27401
+10.07.2021 6:00:06 [DEBUG] Loaded server 5270@185.158.112.207:27402
+10.07.2021 6:00:06 [DEBUG] Loaded server 5269@185.158.112.207:27403
+10.07.2021 6:00:06 [DEBUG] Loaded server 5268@185.158.112.207:27404
+10.07.2021 6:00:06 [DEBUG] Loaded server 4538@185.158.112.207:27052
+10.07.2021 6:00:06 [DEBUG] Loaded server 4539@185.158.112.207:27053
+10.07.2021 6:00:06 [DEBUG] Loaded server 5275@185.158.113.131:27055
+10.07.2021 6:00:06 [DEBUG] Loaded server 5274@185.158.112.203:27065
+10.07.2021 6:00:07 [TRACE] Config from DB loaded
+10.07.2021 6:00:07 [TRACE] Team Setup thread started
+10.07.2021 6:00:07 [TRACE] PlayerStatisticsProcessing thread started
+10.07.2021 11:01:30 [TRACE] Log file loaded
+10.07.2021 11:01:30 [TRACE] Vk Api Token loaded
+10.07.2021 11:01:30 [DEBUG] Loaded server 5271@185.158.112.207:27401
+10.07.2021 11:01:30 [DEBUG] Loaded server 5270@185.158.112.207:27402
+10.07.2021 11:01:30 [DEBUG] Loaded server 5269@185.158.112.207:27403
+10.07.2021 11:01:30 [DEBUG] Loaded server 5268@185.158.112.207:27404
+10.07.2021 11:01:30 [DEBUG] Loaded server 4538@185.158.112.207:27052
+10.07.2021 11:01:30 [DEBUG] Loaded server 4539@185.158.112.207:27053
+10.07.2021 11:01:30 [DEBUG] Loaded server 5275@185.158.113.131:27055
+10.07.2021 11:01:30 [DEBUG] Loaded server 5274@185.158.112.203:27065
+10.07.2021 11:01:30 [TRACE] Config from DB loaded
+10.07.2021 11:01:30 [TRACE] Team Setup thread started
+10.07.2021 11:01:30 [TRACE] PlayerStatisticsProcessing thread started
+10.07.2021 11:01:30 [TRACE] BattleCup.Init thread started
+10.07.2021 12:00:03 [TRACE] battlecup status changed to 1
+10.07.2021 12:00:03 [TRACE] battlecup status changed to 2
+10.07.2021 12:00:04 [TRACE] battlecup status changed to 3
+10.07.2021 12:41:24 [INFO] downloaded file L0710001.log
+10.07.2021 12:41:24 [INFO] started processing file L0710001.log
+10.07.2021 12:41:34 [INFO] successfully processed file L0710001.log
+10.07.2021 13:19:14 [INFO] downloaded file L0710001.log
+10.07.2021 13:19:14 [INFO] started processing file L0710001.log
+10.07.2021 13:19:24 [INFO] successfully processed file L0710001.log
+10.07.2021 13:45:42 [INFO] downloaded file L0710001.log
+10.07.2021 13:45:42 [INFO] started processing file L0710001.log
+10.07.2021 13:46:01 [INFO] successfully processed file L0710001.log
+10.07.2021 15:03:19 [TRACE] battlecup status changed to 4
+10.07.2021 15:03:19 [TRACE] battlecup status changed to 5
+10.07.2021 15:03:19 [TRACE] battlecup status changed to 6
+10.07.2021 15:03:19 [TRACE] battlecup status changed to 7
+10.07.2021 15:03:22 [TRACE] battlecup status changed to 8
+10.07.2021 15:03:27 [TRACE] battlecup status changed to 9
+10.07.2021 15:03:27 [TRACE] battlecup status changed to 10
+10.07.2021 15:17:19 [INFO] downloaded file L0710002.log
+10.07.2021 15:17:19 [INFO] started processing file L0710002.log
+10.07.2021 15:17:39 [INFO] successfully processed file L0710002.log
+10.07.2021 15:59:46 [INFO] downloaded file L0710002.log
+10.07.2021 15:59:47 [INFO] started processing file L0710002.log
+10.07.2021 16:00:10 [INFO] successfully processed file L0710002.log
+10.07.2021 16:19:49 [INFO] downloaded file L0710001.log
+10.07.2021 16:19:49 [INFO] started processing file L0710001.log
+10.07.2021 16:20:05 [INFO] successfully processed file L0710001.log
+10.07.2021 16:48:32 [INFO] downloaded file L0710002.log
+10.07.2021 16:48:32 [INFO] started processing file L0710002.log
+10.07.2021 16:48:59 [INFO] successfully processed file L0710002.log
+10.07.2021 17:26:38 [INFO] downloaded file L0710001.log
+10.07.2021 17:26:38 [INFO] started processing file L0710001.log
+10.07.2021 17:26:44 [INFO] successfully processed file L0710001.log
+10.07.2021 17:29:49 [INFO] downloaded file L0710001.log
+10.07.2021 17:29:49 [INFO] started processing file L0710001.log
+10.07.2021 17:29:59 [INFO] successfully processed file L0710001.log
+10.07.2021 17:56:34 [TRACE] battlecup status changed to 11
+10.07.2021 17:59:34 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:00:04 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  MixTeam VILR - withoutme
+10.07.2021 18:00:04 [DEBUG] INCORRECT TAGS  MixTeam DoubleTrouble - AWARD;  MixTeam the - LND
+10.07.2021 18:00:05 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:00:35 [DEBUG] INCORRECT TAGS  MixTeam DoubleTrouble - AWARD;  MixTeam the - LND
+10.07.2021 18:00:35 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  MixTeam VILR - withoutme
+10.07.2021 18:00:36 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:01:06 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  RED - withoutme
+10.07.2021 18:01:07 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:01:37 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  RED - withoutme
+10.07.2021 18:01:38 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:02:08 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  RED - withoutme
+10.07.2021 18:02:09 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:02:36 [DEBUG] INCORRECT TAGS  MixTeam LND - AWARD;  AWARD - LND
+10.07.2021 18:02:39 [DEBUG] INCORRECT TAGS  MixTeam without - RED;  RED - withoutme
+10.07.2021 18:02:41 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  MixTeam RAGEPICK - LAK
+10.07.2021 18:03:07 [DEBUG] INCORRECT TAGS  MixTeam LND - AWARD;  AWARD - LND
+10.07.2021 18:03:11 [DEBUG] INCORRECT TAGS  MixTeam withoutme - RED;  RED - withoutme
+10.07.2021 18:03:12 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  RAGEPICK - LAK
+10.07.2021 18:03:38 [DEBUG] INCORRECT TAGS  MixTeam AWARD - AWARD;  AWARD - LND
+10.07.2021 18:03:42 [DEBUG] INCORRECT TAGS  MixTeam withoutme - RED;  RED - withoutme
+10.07.2021 18:03:43 [DEBUG] INCORRECT TAGS  MixTeam harDDDDDDDDDDDDDDDDDDDDDDDDDDD - ragepick;  RAGEPICK - LAK
+10.07.2021 18:05:14 [DEBUG] INCORRECT TAGS  MixTeam withoutme - RED;  RED - withoutme
+10.07.2021 18:05:45 [DEBUG] INCORRECT TAGS  MixTeam withoutme - RED;  RED - withoutme
+10.07.2021 18:35:14 [INFO] downloaded file L0710001.log
+10.07.2021 18:35:14 [INFO] started processing file L0710001.log
+10.07.2021 18:35:27 [INFO] successfully processed file L0710001.log
+10.07.2021 18:45:29 [INFO] downloaded file L0710002.log
+10.07.2021 18:45:29 [INFO] started processing file L0710002.log
+10.07.2021 18:45:42 [INFO] successfully processed file L0710002.log
+10.07.2021 18:55:01 [INFO] downloaded file L0710004.log
+10.07.2021 18:55:01 [INFO] started processing file L0710004.log
+10.07.2021 18:55:15 [INFO] successfully processed file L0710004.log
+10.07.2021 18:59:09 [DEBUG] INCORRECT TAGS  MixTeam LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 18:59:40 [DEBUG] INCORRECT TAGS  MixTeam LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:00:11 [DEBUG] INCORRECT TAGS  MixTeam LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:00:42 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:01:13 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:01:44 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:02:16 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:02:47 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:03:18 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:03:49 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:04:20 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:04:51 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:05:22 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:05:53 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:06:54 [DEBUG] INCORRECT TAGS  MixTeam LND - TSM;  ROCCAT - ROCCAT
+10.07.2021 19:07:26 [DEBUG] INCORRECT TAGS  MixTeam LND - TSM;  ROCCAT - ROCCAT
+10.07.2021 19:07:57 [DEBUG] INCORRECT TAGS  MixTeam AWARD - TSM;  ROCCAT - ROCCAT
+10.07.2021 19:11:28 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:11:59 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:12:30 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:13:02 [DEBUG] INCORRECT TAGS  LND - TSM;  MixTeam fnstr - ROCCAT
+10.07.2021 19:28:02 [INFO] downloaded file L0710003.log
+10.07.2021 19:28:02 [INFO] started processing file L0710003.log
+10.07.2021 19:28:22 [INFO] successfully processed file L0710003.log
+10.07.2021 19:29:32 [TRACE] Log file loaded
+10.07.2021 19:29:32 [TRACE] Vk Api Token loaded
+10.07.2021 19:29:32 [DEBUG] Loaded server 5271@185.158.112.207:27401
+10.07.2021 19:29:32 [DEBUG] Loaded server 5270@185.158.112.207:27402
+10.07.2021 19:29:32 [DEBUG] Loaded server 5269@185.158.112.207:27403
+10.07.2021 19:29:32 [DEBUG] Loaded server 5268@185.158.112.207:27404
+10.07.2021 19:29:32 [DEBUG] Loaded server 4538@185.158.112.207:27052
+10.07.2021 19:29:32 [DEBUG] Loaded server 4539@185.158.112.207:27053
+10.07.2021 19:29:32 [DEBUG] Loaded server 5275@185.158.113.131:27055
+10.07.2021 19:29:32 [DEBUG] Loaded server 5274@185.158.112.203:27065
+10.07.2021 19:29:32 [TRACE] Config from DB loaded
+10.07.2021 19:29:32 [TRACE] Team Setup thread started
+10.07.2021 19:29:32 [TRACE] PlayerStatisticsProcessing thread started
+10.07.2021 19:29:32 [TRACE] BattleCup.Init thread started
+10.07.2021 19:29:32 [TRACE] battlecup status changed to 11
+10.07.2021 19:29:33 [DEBUG] INCORRECT TAGS  LAK - AWARD;  withoutme - LND
+10.07.2021 19:29:33 [DEBUG] INCORRECT TAGS  RED - ragepick;  MixTeam БП - LAK
+10.07.2021 19:29:33 [DEBUG] INCORRECT TAGS  MixTeam FLYING - RED;  MixTeam XANTARES - withoutme
+10.07.2021 19:29:48 [TRACE] battlecup status changed to 12
+10.07.2021 19:29:48 [TRACE] battlecup status changed to 13
+10.07.2021 19:30:22 [TRACE] battlecup status changed to 14
+10.07.2021 19:30:57 [INFO] downloaded file L0710002.log
+10.07.2021 19:30:57 [INFO] started processing file L0710002.log
+10.07.2021 19:31:21 [INFO] successfully processed file L0710002.log
+10.07.2021 19:32:23 [DEBUG] INCORRECT TAGS  MixTeam LAK - LAK;  withoutme - withoutme
+10.07.2021 19:55:25 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:55:56 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:56:27 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:56:58 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:57:29 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:58:00 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:58:31 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:58:48 [INFO] downloaded file L0710002.log
+10.07.2021 19:58:48 [INFO] started processing file L0710002.log
+10.07.2021 19:58:58 [INFO] successfully processed file L0710002.log
+10.07.2021 19:59:02 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 19:59:33 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 20:00:05 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 20:00:36 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 20:01:07 [DEBUG] INCORRECT TAGS  MixTeam fnstr - ROCCAT;  LND - LND
+10.07.2021 20:01:24 [INFO] downloaded file L0710004.log
+10.07.2021 20:01:25 [INFO] started processing file L0710004.log
+10.07.2021 20:01:45 [INFO] successfully processed file L0710004.log
+10.07.2021 20:10:57 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:11:58 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:12:29 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:13:00 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:13:31 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:14:02 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:14:33 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam LND - withoutme
+10.07.2021 20:14:36 [INFO] downloaded file L0710002.log
+10.07.2021 20:14:36 [INFO] started processing file L0710002.log
+10.07.2021 20:14:56 [INFO] successfully processed file L0710002.log
+10.07.2021 20:15:05 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  MixTeam the - withoutme
+10.07.2021 20:15:36 [DEBUG] INCORRECT TAGS  LND - LAK;  MixTeam the - withoutme
+10.07.2021 20:24:07 [DEBUG] INCORRECT TAGS  MixTeam LND - LAK;  LAK - withoutme
+10.07.2021 20:38:11 [INFO] downloaded file L0710002.log
+10.07.2021 20:38:12 [INFO] started processing file L0710002.log
+10.07.2021 20:38:28 [INFO] successfully processed file L0710002.log
+10.07.2021 20:54:06 [INFO] downloaded file L0710008.log
+10.07.2021 20:54:06 [INFO] started processing file L0710008.log
+10.07.2021 20:54:26 [INFO] successfully processed file L0710008.log
+10.07.2021 20:58:17 [TRACE] Log file loaded
+10.07.2021 20:58:17 [TRACE] Vk Api Token loaded
+10.07.2021 20:58:17 [DEBUG] Loaded server 5271@185.158.112.207:27401
+10.07.2021 20:58:17 [DEBUG] Loaded server 5270@185.158.112.207:27402
+10.07.2021 20:58:17 [DEBUG] Loaded server 5269@185.158.112.207:27403
+10.07.2021 20:58:17 [DEBUG] Loaded server 5268@185.158.112.207:27404
+10.07.2021 20:58:17 [DEBUG] Loaded server 4538@185.158.112.207:27052
+10.07.2021 20:58:17 [DEBUG] Loaded server 4539@185.158.112.207:27053
+10.07.2021 20:58:17 [DEBUG] Loaded server 5275@185.158.113.131:27055
+10.07.2021 20:58:17 [DEBUG] Loaded server 5274@185.158.112.203:27065
+10.07.2021 20:58:17 [TRACE] Config from DB loaded
+10.07.2021 20:58:17 [TRACE] Team Setup thread started
+10.07.2021 20:58:17 [TRACE] PlayerStatisticsProcessing thread started
+10.07.2021 20:58:17 [TRACE] BattleCup.Init thread started
+10.07.2021 21:18:25 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0710001.log
+10.07.2021 21:20:51 [INFO] downloaded file L0710002.log
+10.07.2021 21:20:52 [INFO] started processing file L0710002.log
+10.07.2021 21:21:12 [INFO] successfully processed file L0710002.log
+10.07.2021 21:37:13 [INFO] downloaded file L0710003.log
+10.07.2021 21:37:13 [INFO] started processing file L0710003.log
+10.07.2021 21:37:22 [INFO] successfully processed file L0710003.log
+10.07.2021 21:51:40 [INFO] downloaded file L0710001.log
+10.07.2021 21:51:40 [INFO] started processing file L0710001.log
+10.07.2021 21:52:00 [INFO] successfully processed file L0710001.log
+10.07.2021 22:07:22 [INFO] downloaded file L0710001.log
+10.07.2021 22:07:22 [INFO] started processing file L0710001.log
+10.07.2021 22:07:25 [INFO] successfully processed file L0710001.log
+10.07.2021 22:15:28 [INFO] downloaded file L0710003.log
+10.07.2021 22:15:28 [INFO] started processing file L0710003.log
+10.07.2021 22:15:41 [INFO] successfully processed file L0710003.log
+10.07.2021 22:33:55 [INFO] downloaded file L0710004.log
+10.07.2021 22:33:56 [INFO] started processing file L0710004.log
+10.07.2021 22:34:15 [INFO] successfully processed file L0710004.log
+10.07.2021 22:38:29 [INFO] downloaded file L0710008.log
+10.07.2021 22:38:29 [INFO] started processing file L0710008.log
+10.07.2021 22:38:50 [INFO] successfully processed file L0710008.log
+10.07.2021 22:41:18 [INFO] downloaded file L0710001.log
+10.07.2021 22:41:18 [INFO] started processing file L0710001.log
+10.07.2021 22:41:21 [INFO] successfully processed file L0710001.log
+10.07.2021 22:43:27 [INFO] downloaded file L0710005.log
+10.07.2021 22:43:28 [INFO] started processing file L0710005.log
+10.07.2021 22:43:30 [INFO] successfully processed file L0710005.log
+10.07.2021 23:05:15 [INFO] downloaded file L0710003.log
+10.07.2021 23:05:15 [INFO] started processing file L0710003.log
+10.07.2021 23:05:26 [INFO] successfully processed file L0710003.log
+10.07.2021 23:13:10 [INFO] downloaded file L0710004.log
+10.07.2021 23:13:11 [INFO] started processing file L0710004.log
+10.07.2021 23:13:34 [INFO] successfully processed file L0710004.log
+10.07.2021 23:16:45 [INFO] downloaded file L0710001.log
+10.07.2021 23:16:45 [INFO] started processing file L0710001.log
+10.07.2021 23:17:04 [INFO] successfully processed file L0710001.log
+10.07.2021 23:19:11 [INFO] downloaded file L0710008.log
+10.07.2021 23:19:11 [INFO] started processing file L0710008.log
+10.07.2021 23:19:31 [INFO] successfully processed file L0710008.log
+10.07.2021 23:41:15 [INFO] downloaded file L0710005.log
+10.07.2021 23:41:16 [INFO] started processing file L0710005.log
+10.07.2021 23:41:19 [INFO] successfully processed file L0710005.log
+11.07.2021 0:05:59 [INFO] downloaded file L0710004.log
+11.07.2021 0:06:00 [INFO] started processing file L0710004.log
+11.07.2021 0:06:26 [INFO] successfully processed file L0710004.log
+11.07.2021 0:06:48 [INFO] downloaded file L0710002.log
+11.07.2021 0:06:48 [INFO] started processing file L0710002.log
+11.07.2021 0:06:57 [INFO] successfully processed file L0710002.log
+11.07.2021 0:08:43 [INFO] downloaded file L0710004.log
+11.07.2021 0:08:43 [INFO] started processing file L0710004.log
+11.07.2021 0:09:00 [INFO] successfully processed file L0710004.log
+11.07.2021 0:09:43 [INFO] downloaded file L0710008.log
+11.07.2021 0:09:43 [INFO] started processing file L0710008.log
+11.07.2021 0:10:03 [INFO] successfully processed file L0710008.log
+11.07.2021 0:44:21 [INFO] downloaded file L0711000.log
+11.07.2021 0:44:22 [INFO] started processing file L0711000.log
+11.07.2021 0:44:41 [INFO] successfully processed file L0711000.log
+11.07.2021 0:45:45 [INFO] downloaded file L0711000.log
+11.07.2021 0:45:45 [INFO] started processing file L0711000.log
+11.07.2021 0:46:12 [INFO] successfully processed file L0711000.log
+11.07.2021 0:49:21 [INFO] downloaded file L0711001.log
+11.07.2021 0:49:21 [INFO] started processing file L0711001.log
+11.07.2021 0:49:34 [INFO] successfully processed file L0711001.log
+11.07.2021 1:25:15 [INFO] downloaded file L0711000.log
+11.07.2021 1:25:15 [INFO] started processing file L0711000.log
+11.07.2021 1:25:34 [INFO] successfully processed file L0711000.log
+11.07.2021 1:32:55 [INFO] downloaded file L0711000.log
+11.07.2021 1:32:56 [INFO] started processing file L0711000.log
+11.07.2021 1:33:19 [INFO] successfully processed file L0711000.log
+11.07.2021 2:20:20 [INFO] downloaded file L0711000.log
+11.07.2021 2:20:20 [INFO] started processing file L0711000.log
+11.07.2021 2:20:36 [INFO] successfully processed file L0711000.log
+11.07.2021 5:01:30 [TRACE] Log file loaded
+11.07.2021 5:01:30 [TRACE] Vk Api Token loaded
+11.07.2021 5:01:32 [DEBUG] Loaded server 5271@185.158.112.207:27401
+11.07.2021 5:01:32 [DEBUG] Loaded server 5270@185.158.112.207:27402
+11.07.2021 5:01:32 [DEBUG] Loaded server 5269@185.158.112.207:27403
+11.07.2021 5:01:32 [DEBUG] Loaded server 5268@185.158.112.207:27404
+11.07.2021 5:01:32 [DEBUG] Loaded server 4538@185.158.112.207:27052
+11.07.2021 5:01:32 [DEBUG] Loaded server 4539@185.158.112.207:27053
+11.07.2021 5:01:32 [DEBUG] Loaded server 5275@185.158.113.131:27055
+11.07.2021 5:01:32 [DEBUG] Loaded server 5274@185.158.112.203:27065
+11.07.2021 5:01:32 [TRACE] Config from DB loaded
+11.07.2021 5:01:32 [TRACE] Team Setup thread started
+11.07.2021 5:01:32 [TRACE] PlayerStatisticsProcessing thread started
+11.07.2021 5:01:32 [TRACE] BattleCup.Init thread started
+11.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:34 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:35 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:36 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:01:37 [ERROR] System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.AutoTeamNameSetup(Object param)
+11.07.2021 5:27:37 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,207,255,255)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.207:65535
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WorkNode.WorkClass.LogGrabber() L0710002.log
+11.07.2021 6:00:07 [TRACE] Log file loaded
+11.07.2021 6:00:07 [TRACE] Vk Api Token loaded
+11.07.2021 6:00:07 [DEBUG] Loaded server 5271@185.158.112.207:27401
+11.07.2021 6:00:07 [DEBUG] Loaded server 5270@185.158.112.207:27402
+11.07.2021 6:00:07 [DEBUG] Loaded server 5269@185.158.112.207:27403
+11.07.2021 6:00:07 [DEBUG] Loaded server 5268@185.158.112.207:27404
+11.07.2021 6:00:07 [DEBUG] Loaded server 4538@185.158.112.207:27052
+11.07.2021 6:00:07 [DEBUG] Loaded server 4539@185.158.112.207:27053
+11.07.2021 6:00:07 [DEBUG] Loaded server 5275@185.158.113.131:27055
+11.07.2021 6:00:07 [DEBUG] Loaded server 5274@185.158.112.203:27065
+11.07.2021 6:00:07 [TRACE] Config from DB loaded
+11.07.2021 6:00:07 [TRACE] Team Setup thread started
+11.07.2021 6:00:07 [TRACE] PlayerStatisticsProcessing thread started
+11.07.2021 6:00:07 [TRACE] BattleCup.Init thread started
+11.07.2021 6:50:01 [ERROR] System.Net.WebException: Удаленный сервер возвратил ошибку: 227 Entering Passive Mode (185,158,112,203,18,178)
+. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 185.158.112.203:4786
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   в System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   в System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   в System.Net.CommandStream.ContinueCommandPipeline()
+   в System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   в System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   в System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   в System.Net.FtpWebRequest.RequestCallback(Object obj)
+   в System.Net.CommandStream.Dispose(Boolean disposing)
+   в System.IO.Stream.Close()
+   в System.IO.Stream.Dispose()
+   в System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   в System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   в System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   в System.Net.FtpWebRequest.GetResponse()
+   в WorkNode.WorkClass.LogGrabber()
